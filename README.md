@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Flappy-Bird JS
 Ремейк оригинальной FlappyBird с использованием **JS** &amp; **HTML Canvas** 
 # [Play it.](https://uchenik1.github.io/JS-Flappy-Bird/index.html)
