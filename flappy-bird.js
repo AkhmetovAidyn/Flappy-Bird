@@ -4,7 +4,6 @@ const game = (function () {
   const canvas = document.getElementById('canvas');
   const ctx = canvas.getContext('2d');
 
-  // Константы для цветов и размеров экрана
   const BLACK = '#000';
   const WHITE = '#FFF';
   const GREEN = '#0F0';
@@ -13,7 +12,6 @@ const game = (function () {
   const SCREEN_WIDTH = 288;
   const SCREEN_HEIGHT = 512;
 
-  // Загружаем изображения
   const birdImg = new Image();
   birdImg.src = 'assets/img/yellowbird-midflap.png';
   const bgImg = new Image();
@@ -21,7 +19,6 @@ const game = (function () {
   const pipeImg = new Image();
   pipeImg.src = 'assets/img/pipe-green.png';
 
-  // Загружаем звуки
   const flapSound = new Audio('assets/audio/wing.ogg');
   const pointSound = new Audio('assets/audio/point.ogg');
   const hitSound = new Audio('assets/audio/hit.ogg');
